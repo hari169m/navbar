@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NAVBAR {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    height: 1cm;
+}
+
+.item a {
+   
+    display:inline;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 3cm;
+    padding: 10px;
+    position: relative;
+}
+
+.dropdown {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+}
+.dropdown-item a{
+    text-decoration: none;
+    color:green;
+}
+
+.item:hover .dropdown {
+    display: block; 
+}
+
+.dropdown-item {
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
